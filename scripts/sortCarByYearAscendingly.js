@@ -8,9 +8,7 @@ function sortCarByYearAscendingly(cars) {
   for (let i = 0; i < result.length - 1; i++) {
     for (let y = 0; y < result.length - 1; y++) {
       if (result[y].year > result[y + 1].year) {
-        let data = result[y]
-        result[y] = result[y + 1]
-        result[y + 1] = data
+        [result[y], result[y + 1]] = [result[y + 1], result[y]]
       }
 
     }
