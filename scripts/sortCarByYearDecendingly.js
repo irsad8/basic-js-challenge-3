@@ -13,6 +13,8 @@ function sortCarByYearDescendingly(cars) {
 
     }
   }
+
+  console.table(result)
   // contoh shortcode
   // result.sort((a, b) => b.year - a.year)
   // Rubah code ini dengan array hasil sorting secara descending

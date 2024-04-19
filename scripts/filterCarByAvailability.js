@@ -9,6 +9,6 @@ function filterCarByAvailability(cars) {
   cars.forEach(mobil => (mobil.available === true) ? result.push(mobil) : null);
 
   // Rubah code ini dengan array hasil filter berdasarkan availablity
-  console.log(result)
+  console.table(result)
   return result;
 }
